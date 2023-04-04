@@ -1,0 +1,250 @@
+/*Theme Name: q-agent
+Theme URI: https://underscores.me/
+Author: Automattic
+Author URI: https://automattic.com/
+Description: Hi. I'm a starter theme called <code>q-agent</code>, or <em>underscores</em>, if you like. I'm a theme meant for hacking so don't use me as a <em>Parent Theme</em>. Instead try turning me into the next, most awesome, WordPress theme out there. That's what I'm here for.
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: q-agent
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+*/
+
+body{
+    background:rgb(224, 221, 221);
+    margin:0 auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size:24px;
+    line-height: 1.5;
+}
+
+h2{
+    font-size:20px;
+    font-weight:600;
+}
+
+header{
+    width:375px; 
+    display:flex;
+    justify-content:center;
+    margin: 0 auto;
+}
+
+
+ul{
+    list-style-type: none;
+        padding: 0;
+        margin: 0;
+}
+
+ul a{
+    text-decoration: none;
+}
+
+li{
+    display:flex;
+}
+
+main{
+    width:375px;
+    margin: auto;
+    background:white;
+}
+
+.container{
+     padding:14px;
+}
+
+.news{
+    display:flex;
+    flex-direction: row;
+}
+.about{
+    display:flex;
+    flex-direction: column;
+}
+
+.article-news{ 
+    flex-direction: row;
+    width:50%;
+    margin:6px;
+}
+
+.article-blog{
+    width: 100%;
+}
+
+p{
+    font-size:16px;
+}
+
+.news-img{
+    width: 100%;
+    height:auto;
+    background:black;
+}
+
+.author{
+    font-size:12px;
+    padding: 5px 14px;
+}
+
+    .blog-img{
+    width: 100%;
+    height:auto;
+    background:black;
+    }
+
+  .main-nav{
+    height:50px;
+    border-bottom: 1px solid #bfbfbf;
+    background:white;
+    margin: auto;
+    color: rgb(3, 0, 0);
+    width:100%;
+    
+    }
+
+ .main-nav li{
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #D9D9D9;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+ }
+
+  .topnav {
+    display: flex;
+    flex-direction: column;
+  
+  }
+
+  .site-branding{
+    width: 85%;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+    height: 60vh;
+    background:#f2f2f2 ;
+    width: 375px;
+    z-index: 999;
+
+  }
+  
+  .topnav a {
+    color: rgb(0, 0, 0);
+    padding: 12.5px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .topnav a.icon {
+    display: block;
+    align-self: flex-end;
+    margin: 15px;
+    margin-top:-40px;
+  }
+
+  .open {
+    background: url("icons/hambi@2x.svg") no-repeat;
+  }
+  
+  .topnav a:hover {
+    color: black;
+  }
+  
+  .active {
+    color: white;
+  }
+
+  .close{
+    background: url("icons/close@2x.svg") no-repeat;
+  }
+
+  footer{
+      background:black;
+      width:375px;
+      margin:0 auto;
+  }
+
+
+  .footer-nav-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    height: 20vh
+    }
+
+    .footer-nav li{
+        display: flex;
+    align-items: center;
+    }
+
+    .footer-nav a{
+        padding: 5px 12px;
+    }
+
+    .footer-nav-container a{
+        text-decoration: none;
+        color: white;
+    }
+
+    .copyright{
+        color:white;
+        font-size: 12px;
+    font-weight: 200;
+    }
+
+
+.icon-external-link:after {
+    display: inline-block;
+    content: ' ';
+    background-image: url('icons/feather-external-link@2x.svg');
+    height: 17px;
+    width: 17px;
+  }
+
+  .icon-external-link-w:after {
+    display: inline-block;
+    content: ' ';
+    background-image: url('icons/feather-external-link@2x.svg');
+    height: 17px;
+    width: 17px;
+    filter: invert(1);
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    background:white;
+    border-bottom: 1px solid #bfbfbf;
+  }
+
+
+  @media only screen and (max-width: 480px) {
+    header{
+        width:100%;
+    }
+    main{
+        width:100%;
+    }
+
+    .topnav{
+        width:100%;
+    }
+
+    footer{
+        width: 100%; 
+    }
+
+}
