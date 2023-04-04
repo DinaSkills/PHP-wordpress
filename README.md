@@ -28,8 +28,6 @@ This theme includes a custom template for displaying movies. To use the template
 ## Credits
 This theme was created using a blank theme as its base. We would like to thank the developers of that theme for their hard work and contribution to the WordPress community. Underscores.me is used just for as base for displaying custom template/archive.
 
-## License
-This theme is licensed under the MIT License - see the LICENSE.md file for details.
 
 
 
