@@ -5,8 +5,9 @@ This is a custom WordPress theme that uses a blank theme as its base. It include
 ## Installation
 To install this theme, follow these steps:
 
-* Download the theme as a ZIP file from the GitHub repository.
-* Log in to your WordPress site and navigate to ***Appearance > Themes.
+* Download the theme  from the GitHub repository.
+* Zip the theme
+* Log in to your WordPress site and navigate to ***Appearance > Themes***.
 * Click on the ***Add New*** button at the top of the screen.
 * Click on the ***Upload Theme*** button and select the ZIP file you downloaded.
 * Click the ***Install Now*** button and wait for the installation to complete.
