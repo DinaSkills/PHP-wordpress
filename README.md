@@ -1,3 +1,6 @@
+
+<img src="https://github.com/DinaSkills/DinaSkills.github.io/blob/master/dee-skills.png" width="228"/>
+
 # PHP-wordpress
 
 This repository contains code for three different branches:
