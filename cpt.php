@@ -7,7 +7,7 @@ function create_advanced_page_movies() {
  
 	// Define the labels used inside the WordPress admin for this custom post type (CPT)
 		$labels = array(
-			'name'                => _x( 'Movie', 'Post Type General Name', 'q-agent' ),
+			'name'                => _x( 'Movies', 'Post Type General Name', 'q-agent' ),
 			'singular_name'       => _x( 'Movie', 'Post Type Singular Name', 'q-agent' ),
 			'add_new'             => __( 'Add New', 'q-agent' ),
 			'add_new_item'        => __( 'Add New Movie', 'q-agent' ),
@@ -35,10 +35,13 @@ function create_advanced_page_movies() {
 				'query_var' => true,
 				'rewrite' => true,
 				'capability_type' => 'post',
-				'has_archive' => true, 
+				'has_archive' => 'archive-movie', 
 				'menu_position' => 7,
+				'show_in_rest'  => true,
+   			    'rest_base'     => 'movies',
+                'rest_controller_class' => 'WP_REST_Posts_Controller',
 				'menu_icon' => 'dashicons-portfolio',
-                                'taxonomies' => array('category', 'post_tag'),
+                'taxonomies' => array('category', 'post_tag'),
 				'supports' => array( 'title', 'editor', 'excerpt', 'thumbnail', 'author', 'thumbnail', 'revisions', 'post-attributes', 'custom-fields' )
 			); 
 	
@@ -49,4 +52,14 @@ function create_advanced_page_movies() {
 	}
 	
 	add_action( 'init', 'create_advanced_page_movies', 0 );
+
+	function api_movies( $route, $post ) {
+		if ( $post->post_type === 'movies' ) {
+			$route = '/wp/v2/movies/' . $post->ID;
+		}
+	
+		return $route;
+	}
+	add_filter( 'rest_route_for_post', 'api_movies', 10, 2 );
 ?>
+
