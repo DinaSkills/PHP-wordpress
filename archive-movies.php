@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying Moviee
+ * The template for displaying Movie
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
