@@ -15,7 +15,7 @@ Please refer to the README file in each branch for more information.
 
 ## Installation
 To install any of the branches, clone the repository and checkout the desired branch:
-```bash
+```
 git clone https://github.com/DinaSkills/PHP-wordpress.git
 cd PHP-wordpress
 git checkout branch-name
