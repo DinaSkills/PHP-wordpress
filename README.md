@@ -24,8 +24,6 @@ Then follow the installation instructions in the README file for the specific br
 ## Usage
 Each branch has its own usage instructions in its README file. Please refer to the appropriate file for more information.
 
-## Contributing
-If you would like to contribute to this project, please create a pull request with your changes. Make sure to test your changes thoroughly before submitting the pull request.
 
 
 
