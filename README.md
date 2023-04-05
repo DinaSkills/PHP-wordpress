@@ -40,7 +40,7 @@ Open your terminal and navigate to the root directory of your WordPress installa
   ```
   zip -r my-plugin.zip plugin directory
   ```
-OR use a program to zip files. If you do not have one istalled download it from https://www.7-zip.org/
+OR use a program to zip files. If you do not have one installed download it from https://www.7-zip.org/
 
 6. Upload plugin to wordpress
 
@@ -48,7 +48,7 @@ OR use a program to zip files. If you do not have one istalled download it from 
 
     Click the ***"Upload Plugin"*** button at the top of the page.
 
-    Click the ***"Choose File"*** button and select the zipped file you created in step 6.
+    Click the ***"Choose File"*** button and select the zipped file you created in step 5.
 
     Click the ***"Install Now"*** button and wait for the installation to complete.
 
@@ -56,5 +56,5 @@ OR use a program to zip files. If you do not have one istalled download it from 
 
     You should now see the new custom post type in your WordPress dashboard.
 
-Conclusion
+## Conclusion
 By following these steps, you should now have successfully pulled a project from a Git repository and uploaded a zipped file to WordPress plugins. If you encounter any issues, please refer to the documentation for Git or WordPress.
