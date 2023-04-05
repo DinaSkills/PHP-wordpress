@@ -36,7 +36,7 @@ git clone https://github.com/username/repo.git
 
 This will clone the repository to your current directory (the my-project directory you created earlier).
 
-6. If you do not have curl client follow and download it from https://curl.se/download.html 
+6. If you do not have curl library follow and download it from https://curl.se/download.html 
 
 You can now start working with the project files on your local server.
 
