@@ -18,15 +18,15 @@ This theme includes a custom template for displaying movies. To use the template
 
 * Create a new page in WordPress.
 * In the ***Page Attributes*** panel on the right-hand side of the screen, select the Movies Template option from the dropdown menu.
-* out the content for the post or page, including any movie-related information you want to include.
+* Fill out the content for the page, including any movie-related information you want to include.
 * Click the Publish or Update button to save your changes.
 * The custom template will now be used to display your movie-related content.
  
 ### Archive 
- Theme has archive option for movies using slug /archive-movies/
+ Theme has archive option for movies using slug /archive-movie/
 
 ## Credits
-This theme was created using a blank theme as its base. We would like to thank the developers of that theme for their hard work and contribution to the WordPress community. Underscores.me is used just for as base for displaying custom template/archive.
+This theme was created using a blank theme as its base. Underscores.me is used just for as base for displaying custom template/archive.
 
 
 
