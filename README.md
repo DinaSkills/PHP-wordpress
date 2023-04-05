@@ -25,12 +25,8 @@ cd my-project
 git init
 ```
 
-5. Use your cURL client to make an HTTP request to the remote Git repository's clone URL. For example, if the repository's clone URL is https://github.com/username/repo.git, you can use the following command:
-```
-curl https://github.com/username/repo.git
-```
 
-6. You will be prompted to enter your GitHub credentials.
+5. You will be prompted to enter your GitHub credentials.
 
 Once you have successfully authenticated with the remote Git repository, you can clone it to your local server by running the following command:
 
@@ -40,8 +36,11 @@ git clone https://github.com/username/repo.git
 
 This will clone the repository to your current directory (the my-project directory you created earlier).
 
+6. If you do not have curl client follow and download it from https://curl.se/download.html 
+
 You can now start working with the project files on your local server.
-Note: If you are using HTTPS and want to test with SSL protocol, you may need to set the following options in your cURL client:
+
+***Note: If you are using HTTPS and want to test with SSL protocol, you may need to set the following options in your cURL client:***
 
 ```
 CURLOPT_SSL_VERIFYHOST => 2,
